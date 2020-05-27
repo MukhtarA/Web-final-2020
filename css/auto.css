@@ -1,0 +1,217 @@
+.auto-section{
+    box-sizing: border-box;
+    color: rgb(1, 1, 1);
+    display: block;
+    font-family: DINNextLT-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    line-height: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width:1440px;
+}
+.auto-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -50px;
+    margin-right: -50px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+
+}
+.auto-col-3{
+    box-sizing: border-box;
+    color: rgb(1, 1, 1);
+    display: block;
+    flex-basis: 33.3333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: DINNextLT-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 381.25px;
+    line-height: 24px;
+    max-width: 33.3333%;
+    min-height: 381.25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 446.656px;
+}
+
+.auto-col-3-a{
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    color: rgb(183, 8, 38);
+    cursor: pointer;
+    display: inline;
+    font-family: DINNextLT-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-color: rgb(183, 8, 38);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+    
+}
+
+.auto-col-3-a-teaser{
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-family: DINNextLT-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 351.25px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 346.656px;
+
+}
+
+.auto-col-3-a-teaser-image{
+    background-color: rgb(245, 245, 245);
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-family: DINNextLT-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 231.25px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 346.656px;
+}
+.teaser-img-fluid{
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline;
+    font-family: DINNextLT-Light, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 100%;
+    mix-blend-mode: multiply;
+    text-align: left;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+}
+
+.name-of-auto{
+    box-sizing:border-box;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    display:block;
+    font-family:DINNextLT-Pro-Medium, sans-serif;
+    font-size:18px;
+    font-weight:400;
+    height:30px;
+    line-height:30px;
+    margin-block-end:0px;
+    margin-block-start:0px;
+    margin-bottom:0px;
+    margin-inline-end:0px;
+    margin-inline-start:0px;
+    margin-top:0px;
+    padding-right:32px;
+  
+    text-align:left;
+    text-size-adjust:100%;
+    width:346.656px;
+}
+.fft{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 19px;
+}
+.fft-block{
+    box-sizing:border-box;
+color:rgb(1, 1, 1);
+display:block;
+
+flex-grow:0;
+flex-shrink:0;
+font-family:DINNextLT-Light, sans-serif;
+font-size:24px;
+font-weight:400;
+height:440px;
+line-height:24px;
+padding-left:50px;
+padding-right:50px;
+position:relative;
+text-align:center;
+text-size-adjust:100%;
+
+}
+@media(max-width: 1200px){
+
+.auto-col-3{
+    max-width: 100%;
+}
+
+.auto-col-3-a{
+    width: 100%;
+    
+}
+
+.auto-col-3-a-teaser{
+  width: 100%;
+
+}
+
+.auto-col-3-a-teaser-image{
+   width: 100%;
+}
+.teaser-img-fluid{
+    width: 100%;
+}
+.name-of-auto{
+    width: 100%;
+}
+.grid-teaser-image img {
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+picture, picture img {
+    margin: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+}
